@@ -35,7 +35,7 @@ public class Navigation {
     }
 
     private int vCount(Parking parking){
-        return parking.getCrossroads().get(0).mapCrossroads.size();
+        return parking.getCrossroads().get(0).getMapCrossroads().size();
     }
 
     private void addEdge(ArrayList<ArrayList<Integer>> adj, int i, int j) {

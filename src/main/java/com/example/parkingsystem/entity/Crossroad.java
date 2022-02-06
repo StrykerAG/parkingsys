@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Crossroad {
-    Map<Integer, List<Zone>> mapCrossroads;
+    private Map<Integer, List<Zone>> mapCrossroads;
 
     @Override
     public String toString() {

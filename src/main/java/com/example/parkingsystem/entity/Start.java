@@ -1,6 +1,5 @@
 package com.example.parkingsystem.entity;
 
-import com.example.parkingsystem.service.Time;
 import com.example.parkingsystem.service.TimeService;
 
 import java.util.*;

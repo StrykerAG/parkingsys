@@ -1,4 +1,4 @@
-package com.example.parkingsystem.service;
+package com.example.parkingsystem.entity;
 
 public class Time {
     int time;

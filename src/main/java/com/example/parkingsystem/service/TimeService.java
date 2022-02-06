@@ -1,6 +1,6 @@
 package com.example.parkingsystem.service;
 
-import com.example.parkingsystem.entity.Parking;
+import com.example.parkingsystem.entity.Time;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
