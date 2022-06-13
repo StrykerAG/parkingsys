@@ -7,7 +7,7 @@ import java.util.List;
 public class Navigation {
 
     private List<Integer> navigation = new ArrayList<>();
-    String showDirection(Car car, Parking parking){
+    public String showDirection(Car car, Parking parking){
         String direction = "";
         for (int i = 0; i < parking.getCrossroadConnections().size(); i++) {
             if (car.getPreviousCrossroadPosition() == parking.getCrossroadConnections().get(i).getCrossroadA() &&
@@ -19,7 +19,7 @@ public class Navigation {
         return direction;
     }
 
-    List<Integer> navi(int source, int dest, Parking parking) {
+    public List<Integer> navi(int source, int dest, Parking parking) {
         int v = vCount(parking) + 1;
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < v; i++) {
